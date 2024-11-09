@@ -16,7 +16,7 @@ const userSchema = new Schema(
         age: Number,
         profilePic: {
             type: String,
-            default: 'https://pwco.com.sg/wp-content/uploads/2020/05/Generic-Profile-Placeholder-v3-300x300.png'
+            default: 'https://www.kindpng.com/picc/m/301-3014743_logo-cine-web-design-4-circle-hd-png.png'
         },
         visitedCountries: [ {type: Schema.Types.ObjectId, ref: "Country"} ]
     },
